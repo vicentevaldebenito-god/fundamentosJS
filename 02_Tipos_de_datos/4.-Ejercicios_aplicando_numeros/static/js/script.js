@@ -7,8 +7,6 @@ console.log(`Conexion con JS exitosa`)
 // Tu edad hace 10 años
 // Muestra ambos resultados en alert.
 
-let edad = 16
-
 function edadProyectada() {
     let edad= 16;
     alert(`Mi edad es ${edad}
@@ -22,8 +20,8 @@ function edadProyectada() {
 // Muestra el resultado
 
 function compraDescuento() {
-    let producto = 25000
-    let descuento = 0.20
+    let producto = 25000;
+    let descuento = 0.20;
     alert(`El precio fijo del producto es: ${producto} y tiene un descuento de 20% ,
         \nEl precio del producto con el descuento es: ${producto - (producto * descuento)} `)
 };
@@ -33,9 +31,9 @@ function compraDescuento() {
 // Redondea el resultado usando Math.round()
 
 function promedioNotas() {
-    let nota1 = 5.3
-    let nota2 = 6.6
-    let nota3 = 4.8
+    let nota1 = 5.3;
+    let nota2 = 6.6;
+    let nota3 = 4.8;
     alert(`Con 3 notas: ${nota1}, ${nota2}, ${nota3}
         \nse consigue el promedio: ${(nota1 + nota2 + nota3) / 3 }
         \nY redondeado es ${Math.round((nota1 + nota2 + nota3) / 3)} `)
@@ -47,7 +45,7 @@ function promedioNotas() {
 // Muestra el resultado final
 
 function calcularTemperatura(){
-    let grados = 20
+    let grados = 20;
     alert(`Hacen ${grados} grados , 
         \naumentado son; ${grados + 3}, 
         \ny disminuidos son: ${grados - 5}`)
@@ -59,8 +57,8 @@ function calcularTemperatura(){
 // Muestra el nuevo sueldo
 
 function sueldoSemanal() {
-    let horas = 45
-    let valorHoras = 8000
+    let horas = 45;
+    let valorHoras = 8000;
     alert(`Un trabajador gana $${valorHoras} por hora y trabaja ${horas} horas
         \nsu sueldo es de ${horas * valorHoras}
         \nY si trabajara 5 horas extra trabajaria ${horas + 5} horas
@@ -74,8 +72,8 @@ function sueldoSemanal() {
 // Explica el resultado en alert
 
 function divisionResto() {
-    let numero1 = 85
-    let numero2 = 47
+    let numero1 = 85;
+    let numero2 = 47;
     alert(`tenemos dos numeros: ${numero1} y ${numero2}
         \nLa division entre ellos es: ${numero1} / ${numero2}
         \nY su resultado seria ${numero1 / numero2}
@@ -88,8 +86,8 @@ function divisionResto() {
 // Verifica si uno de ellos es igual a 10
 
 function comparacion() {
-    let numero3 = 24
-    let numero4 = 45
+    let numero3 = 24;
+    let numero4 = 45;
     alert(`Tenemos ${numero3} y ${numero4},
         \nEs ${numero3} mayor a ${numero4}? , ${numero3 > numero4}
         \nY es ${numero4} igual a 10? , ${numero4 === 10}`)
@@ -101,7 +99,7 @@ function comparacion() {
 // Muestra el resultado
 
 function notacion() {
-    let poblacion = 1e6
+    let poblacion = 1e6;
     alert(`Una ciudad tiene una poblacion de ${poblacion}
         \nEsta poblacion es dividida en 4 grupos
         \nEl numero de personas en cada grupo seria: ${poblacion / 4}`)
