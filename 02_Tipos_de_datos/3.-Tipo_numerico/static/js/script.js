@@ -4,7 +4,7 @@ console.log("Conexion exitosa")
 
 // 1.- Declaracion de números(creación de variables numericas)
 let edad = 31;
-let temperatura = 5;
+let temperatura = -5;
 let precio = 19990;
 let pi = 3.1416;
 let descuento =  0.25;
@@ -49,3 +49,16 @@ console.log(`El sueldo base es: ${sueldo}`)
 // 7.- Redondeo de numeros
 console.log(`Redondeando 4.6 ${Math.round(4.6)}`);//5
 console.log(`Redondeando 4.6 ${Math.floor(4.6)}`);//4
+
+//8.- Numeros aleatorios
+let aleatorio = Math.random(); // entre 0 y 1
+let dado = Math.floor(Math.random()*6) + 1; // 1 al 6
+console.log(`Tirar dados: ${dado}`);
+
+// 9.- Comparaciones numéricas
+let a = 10;
+let b = 5;
+console.log(a > b); //  True
+console.log(a < b); // False
+console.log(a === 10); // True (=== estricta igualdad)
+console.log(b === 3); // False 
