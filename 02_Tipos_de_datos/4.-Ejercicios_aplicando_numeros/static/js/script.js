@@ -1,11 +1,13 @@
 console.log(`Conexion con JS exitosa`)
 
+
 // 📌 Ejercicios
 // 🔹 Ejercicio 1: Edad proyectada
 // Declara tu edad actual y calcula:
 // Tu edad en 5 años
 // Tu edad hace 10 años
 // Muestra ambos resultados en alert.
+// hecho por Vicente Valdebenito
 
 function edadProyectada() {
     let edad= 16;
