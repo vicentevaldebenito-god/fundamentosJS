@@ -129,3 +129,4 @@ function ejercicio10() {
         alert(`El numero mayor es ${comparacion2}`)
     }
 }
+
