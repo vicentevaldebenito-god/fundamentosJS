@@ -86,3 +86,51 @@ function ejercicio5() {
         }
     }
 }
+
+// Ejercicios extras:
+
+// Ejercicio 16: Boleta de compra con clasificación de cliente
+
+// Crear una función que almacene el nombre de un cliente, el nombre de un producto y el precio. Luego:
+// Convertir el nombre del cliente a mayúsculas
+// Determinar el tipo de cliente según el precio:
+// Mayor o igual a 100.000 → Cliente Premium (20% descuento)
+// Mayor o igual a 50.000 → Cliente Frecuente (10% descuento)
+// Menor a 50.000 → Cliente Normal (sin descuento)
+
+function ejercicio6(){
+    let precio
+}
+
+// Mostrar:
+// Nombre del cliente en mayúsculas
+// Producto en minúsculas
+// Precio original
+// Precio final
+// Tipo de cliente
+
+// Ejercicio 17: Análisis de frase con puntuación
+// Crear una función que almacene una frase y un puntaje numérico. Luego:
+// Convertir la frase a minúsculas
+// Contar la cantidad de caracteres
+// Clasificar el puntaje:
+// 90 o más → Excelente
+// 70 o más → Bueno
+// Menor a 70 → Insuficiente
+
+// Mostrar:
+// Frase transformada
+// Largo de la frase
+// Puntaje
+// Clasificación
+
+// Ejercicio 18: Evaluación de tres notas con estado final
+
+// Crear una función que almacene el nombre de un estudiante y tres notas. Luego:
+
+// Calcular el promedio
+// Convertir el nombre a mayúsculas
+// Determinar el estado:
+// Promedio ≥ 6.0 → Destacado
+// Promedio ≥ 4.0 → Aprobado
+// Promedio < 4.0 → Reprobado
